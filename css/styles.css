@@ -1,0 +1,545 @@
+/@font-face {
+    font-family: GraublauWeb;
+    src: url("fonts/Alcubierre.otf") format("opentype");
+}
+
+body{
+    font-family: Roboto;
+    font-weight: regular;
+    padding: 0;
+    margin:0;
+}
+
+
+.user-info {
+	background-color: #000;
+	height: 40px;
+	text-align: end;
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 15px;
+	color: #fff;	
+}
+.userbar{
+	max-width: 1300px;
+	padding: 10px 0;
+}
+
+.container-form{
+	max-width: 500px;
+    
+	margin-top: 130px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.form-name {
+  
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	padding: 5px 3px;
+	width: 300px;
+	border-radius: 4px;
+	border: none;
+	border-bottom: 1px solid grey;
+	margin-bottom: 15px;
+	font-family: Montserrat;
+	font-weight: 300;
+}
+
+
+.form-password {
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	padding: 5px 3px;
+	width: 300px;
+	border-radius: 4px;
+	border: none;
+	border-bottom: 1px solid grey;
+	margin-bottom: 12px;
+	font-family: Montserrat;
+	font-weight: 300;
+}
+.forgot-link{
+	margin-left: auto;
+	margin-right:auto;
+	width: 300px;
+	text-align: end;
+	font-weight: 300;
+    display: block;
+	font-family: Montserrat;
+	font-size: 13px;
+	color: #424242;	
+	text-decoration: none;
+	
+	
+}
+.sign-up-link{
+	color: #424242;	
+	text-decoration: none;
+	font-weight: 600;
+}
+.Signupquestion {	
+	margin-left: auto;
+	margin-right:auto;
+	width: 300px;	
+	text-align: end;
+	font-family: Montserrat;
+	font-size: 13px;
+	font-weight: 300;
+	color: #424242;	
+	text-decoration: none;
+	margin-bottom: 25px;
+	
+}
+.label {
+	font-family: Montserrat;
+	font-weight: 500;
+    display: block;
+	width: 300px;
+    
+	font-size: 15px;
+	margin-left: auto;
+	margin-right:auto;
+	
+}
+.login-form{
+
+    display: block;
+	color: #1B1A1A;
+	font-size: 27px;
+	font-family: Montserrat;
+	font-weight: 1000;
+	text-align: center;
+		
+}
+.submitBut {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-image: linear-gradient(to right, #FF6700, #E4CDBE);
+	color: #fff;
+	width: 300px;
+	display: block;
+	border-radius: 30px;
+	padding: 12px 0;
+	border:none;
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size: 18px;
+}
+.fieldset-form{
+   
+	background-color:#FFFFFF;
+	height: 500px;	
+	
+	align-items:center;
+	border-radius: 8px;
+	border: none;
+	padding-top: 60px;
+}
+section.hero{
+    padding: 0px 120px;
+    height: 979px;
+    background-image: url("../images/Group 2527.jpg");
+    background-size: cover;
+}
+section.secondsection{
+    background-image: url("..//images/section2.jpg");
+    height: 979px;
+    padding: 60px 0;
+    background-size: cover;
+}
+div.container{
+    position: relative;
+    max-width: 1450px;
+    margin-left:auto;
+    margin-right: auto;
+}
+div.flex {
+    color: #fff;
+    display: flex;
+    height: 209px;
+    justify-content: center;
+    align-items: center;
+    
+}
+section.sixthsection {
+    height: 1024px;
+    background-image: url("../images/Group\ 2222.png");
+}
+div.card {
+    height: 379px;
+    background-color: #D7D9DA;
+    width: 627px;
+    position: relative;
+}
+p.cardparagraph {
+    font-family: Exo;
+    font-weight: regular;
+    font-size: 22px;
+    width: 445px;
+}
+div.cardimage1 {
+    position: absolute;
+    top: 7%;
+    left: -2%;
+}
+div.testimonials > h1 {
+    font-size: 72px;
+    font-family: Alcubierre;
+    color: #fff;
+}
+div.testimonials {
+    padding: 0;
+    margin: 52px 0;
+}
+div.mark > h2 {
+    font-size: 34px;
+    font-family: Roboto;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+div.mark > span.spantext {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 23px;
+}
+div.mark {
+    text-align: center;
+    margin: 0 100px;
+}
+div.container1 {
+    position: relative;
+    padding: 40px 0;
+    max-width: 1400px;
+    margin-left:auto;
+    margin-right: auto;
+}
+div.herobuttons{
+    margin-top: 60px;
+}
+section.fifthsection {
+    background-color: #000;
+    height: 209px;
+}
+span.horizontalline {
+    position: absolute;
+    width: 481px;
+    display: block;
+    border: 1px solid #000000;
+    margin-top: -50px;
+}
+span.horizontalline3{
+    width: 481px;
+    display: block;
+    margin-top: -40px;
+    border: 1px solid #000000;
+}
+span.horizontallinehero {
+    position: absolute;
+    width: 481px;
+    display: block;
+    border: 1px solid #fff;
+    margin-top: -20px;
+}
+div.secondwebmaterial {
+    position: relative;
+    width: 820px;
+    margin-bottom: 60px;
+  
+}
+div.imagediv {
+	align-self: flex-start;
+    margin-bottom: 60px;
+}
+button.learnmorebut {
+    display: block;
+    padding: 16px 10px;
+    border: none;
+    
+    text-decoration: none;
+    background-color: #334B35;
+    width: 200px;
+}
+button.learnmorebut a{
+    color: #fff;
+    background-color: #000;
+}
+div.flexbox {
+	height: 978px;
+	width: 820px;
+	float: right;
+	display: flex;
+	flex-direction:column;
+	align-items: flex-start;
+	justify-content: center;
+    
+}
+
+div.skillset {
+    display: inline-block;
+    margin-left: 90px;
+    font-family: Roboto;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    font-size: 24;
+    line-height: 116.3%;
+  
+}
+div.secondary{
+    position: relative;
+    top: 40px;
+    display: flex;
+    color: #000;
+    font-family: Montserrat;
+    width: 481px;
+}
+div.secondary h4 {
+    font-weight: 500;
+    line-height: 116.3%;
+}
+div.servicediv h1,div.servicediv p{
+    display: inline-block;
+}
+
+div.secondary p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 136.3%;
+}
+h1.services{
+    width: 382px;
+}
+p.servicepar {
+    width: 717px;
+    font-family: Roboto;
+    font-weight: regular;
+    font-size: 24px;
+    color: #fff;
+}
+div.porftoliodiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+div.containernav
+{
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+
+}
+div.hero_content{
+    position: relative;
+    margin-top: 150px;
+    max-width: 750px;
+}
+h1.white, h1.services, h1.white2 {
+    font-family: Azo Sans;
+    font-weight: lighter;
+    font-size: 72px;
+    line-height: 125.3%;
+    color: #000;
+}
+span.horizontalline2{
+    position: absolute;
+    width: 1200px;
+    display: block;
+    border: 1px solid #fff;
+    bottom: 40px;
+    
+}
+div.imagessection {
+    position: absolute;
+    top: 400px;
+}
+div.image {
+    display: inline-block;
+    padding: 12px 40px;
+}
+section.thirdsection {
+    height: 979px;
+    background-image: url("../images/section3.png");
+    background-repeat: no-repeat;
+}
+div.servicediv{
+    max-width: 1450px;
+}
+
+h1.portfolio{
+    font-family: Alcubierre;
+    font-weight: regular;
+    font-size: 72px;
+    line-height: 125.3%;
+    color: #000;
+}
+section.forthsection{
+    height: 1049px;
+    background-image: url("../images/Group 2220.png");
+    background-repeat: no-repeat;
+}
+div.imagessection1{
+    text-align: center;
+}
+div.imagesec{
+    width:auto;
+    padding: 0 12px;
+    display: inline;
+}
+div.categories {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+div.categories a{
+    font-family: Roboto;
+    font-weight: 300;
+    padding: 0 15px;
+    font-size: 22px;
+    color: #000;
+    text-decoration: none;
+}
+div.categories a:hover{
+    border-bottom: 2px solid black;
+}
+
+div.porftoliodiv > p {
+    text-align: center;
+    padding: 12px 360px;
+}
+span.spanam{
+    color: #334B35;
+}
+div.skillset > p {
+    font-family: Roboto;
+    font-weight: 400;
+    color: #000;
+    font-size: 19px;
+    line-height: 116.3%;
+}
+p.paraghero, div.secondwebmaterial > p, div.porftoliodiv > p {
+    font-family: Shree Devanagari;
+    font-weight: regular;
+    position: relative;
+    top: -25px;
+    font-size: 28px;
+    color: #0E0E0E;
+    line-height: 125.3%;
+}
+a.navlink{
+    font-family: Montserrat;
+    font-weight: regular;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    margin: 0px 25px;
+    padding: 12px 10px;
+    position: relative;
+    
+    left: 190px;
+    line-height: 175.7%;
+}
+button.but a{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+}
+button a{
+    text-decoration: none;
+}
+button.getstartedbutton a {
+    color: #fff;
+}
+.userbar {
+    float: right;
+    width: 400px;
+    margin-right: 90px;
+}
+button.getstartedbutton{
+    padding: 17px 42px;
+    height: 55px;
+    background-color: #334B35;
+}
+button.but {
+    width: 244px;
+    border-radius: 8px;
+}
+div.contactmedia .but{
+    border-radius: 8px;
+}
+a.Logoutbut {
+    color: rgba( 255 ,255, 255, 0.8);
+    text-decoration: none;
+    padding: 5px 12px;
+    border-radius: 8px;
+    background-color: rgb(165, 19, 19);
+}
+a.Logoutbut:hover{
+    color: rgba( 255 ,255, 255, 1);
+}
+button.watchdemobutton a {
+    color: #000;
+}
+button.watchdemobutton{
+    margin-left: 30px;
+    padding: 17px 42px;
+    height: 56px;
+    border: 2px solid #000;
+    background-color: transparent;
+    transition: background-color 300ms ease;
+}
+button.watchdemobutton:hover{
+    
+    background-color: rgb(51, 75, 73, 0.8);
+    
+}
+a.media{
+    position: relative;
+    text-decoration: none;
+    padding: 17px 30px;
+    font: Montserrat;
+    font-weight: Bold;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #334B35; 
+
+   
+}
+a.accessbut{ 
+    transition: background-color 300ms ease;
+   
+}
+a.accessbut:hover{
+
+    background-color: rgb(255, 255, 255,0.1);
+}
+a.brand{ 
+    display: inline-block;
+    position: relative;
+    margin-right: 50px;
+    top: 6px;
+    width: 90px;
+}
+
+div.div1{
+    display:flex;
+    padding: 12px 0px;
+}
+div.navbar{
+    display:block;
+  
+    padding-top: 20px;
+    margin: auto;
+    width: auto;
+    height: auto;
+    
+   
+}
+a.navlink:hover{
+    border-bottom: 2px solid #334B35;
+}
